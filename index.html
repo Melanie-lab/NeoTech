@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>NEOTech</title>
+    <link rel="stylesheet" href="CSS/smallscreen.css" />
+    <link rel="stylesheet" href="CSS/widescreen.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <a href="#maincontent" class="skip-links">SKip to main content</a>
+    <header class="header_ss">
+      <div class="topline">
+        <div class="nav_position_relative">
+          <img alt="GoTECH" src="img/logo.png" class="logo" />
+          <button class="icon" aria-label="open_menue" onclick="mobileNav()">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+          </button>
+        </div>
+        <nav id="navSS">
+          <div class="search_bar">
+            <input type="text" placeholder="     Search here" />
+            <button class="magnifier" aria-label="search"></button>
+          </div>
+          <a class="nav_link" href="#home">Home</a>
+          <a class="nav_link" href="#about">About</a>
+          <a class="nav_link" href="#team">Team</a>
+          <a class="nav_link" href="#strategies">Strategies</a>
+          <a class="nav_link" href="#products">Products</a>
+          <a class="nav_link" href="#contact">Contact</a>
+          <!--  <a class="nav_link" href="#contact">Contact us</a> -->
+        </nav>
+      </div>
+    </header>
+    <header class="header_ws">
+      <img alt="GoTECH" src="img/logo.png" class="logo" />
+      <nav id="navWS">
+        <a class="link_home" href="#home">Home</a>
+        <a class="link_about" href="#about" onClick="turnSpiral()">About</a>
+        <a href="#team">Team</a>
+        <a class="nav_link" href="#strategies">Strategies</a>
+        <a class="nav_link" href="#products">Products</a>
+        <a class="nav_link" href="#contact">Contact</a>
+      </nav>
+      <div class="search_bar_ws">
+        <input type="text" placeholder=" Search here" />
+        <button class="magnifier_ws"></button>
+      </div>
+      <!-- <a href="contact_ws" class="contact_ws">Contact Us</a> -->
+    </header>
+    <main id="maincontent" tabindex="-1">
+      <section id="home">
+        <h1>
+          We create New Technology <br /><span>Tailored to your Needs</span>
+        </h1>
+        <p>
+          This is a design of a single page web application. The code was
+          written in HTML, CSS and Vanilla Javascript. Graphics were created in
+          Inkscape.
+        </p>
+        <div class="home_btn">
+          <a href="#contact" class="our_work">Get in contact</a>
+          <a href="#team" class="know_more">Who we are</a>
+        </div>
+        <div class="home_img_div">
+          <img class="pc" src="img/pc.png" alt="" />
+        </div>
+      </section>
+      <div id="about">
+        <article>
+          <h2 id="our_work_h2">
+            <span id="our_work_h2_2">Our Story</span><br />From Zero to Hero
+          </h2>
+          <p>
+            Lorem ipsum dolor sit amet, vel accumsan liberavisse ex, ea nec
+            elaboraret interpretaris, sed diceret concludaturque ndo. Verear
+            habemus sea ut. His nibh scripta in. In sea vocibus facilisis. Sed
+            <br /><br />
+            vel cu paulo doctus vidisse. Iudico dicant nostrum nec an, in eos In
+            detraxit eleifend duo, alterum iudicabit consectetuer per ad.
+          </p>
+          <a href="#products" class="page2_know_more">Products</a>
+        </article>
+        <div>
+          <img class="spiral" src="img/spiral.png" alt="" />
+        </div>
+      </div>
+      <div id="help">
+        <article>
+          <h2><span>All these </span><br />Benefits <span>for you</span></h2>
+          <p>
+            Lorem ipsum dolor sit amet, vel accumsan liberavisse ex, a
+            elaboraret interpretaris, sed diceret concludaturque nasdo habemus
+            sea ut. His nibh scripta in. In sea vocibus facilisis
+          </p>
+          <p class="home_p_indent">
+            vel cu paulo doctus vidsse. Iudico dicant nostrum nec aIn detraxit
+            eleifend duo, alterum iudicabit consectetuer per.
+          </p>
+        </article>
+        <div>
+          <!-- <img src="img/help.png" alt="" /> -->
+        </div>
+      </div>
+      <section id="team">
+        <h2><span>The </span>Team</h2>
+        <div class="client">
+          <div class="client_left_top c">
+            <img class="face1" src="img/face1.png" alt="" />
+          </div>
+          <div class="client_left_middle c">
+            <img class="face2" src="img/face2.png" alt="" />
+          </div>
+          <div class="client_left_bottom c">
+            <img class="face3" src="img/face3.png" alt="" />
+          </div>
+          <div class="client_middle c">
+            <img class="client_img_center face4" src="img/face4.png" />
+          </div>
+          <div class="client_middle_text_quote">
+            <div class="middle_wrapper">
+              <!--  <img class="img_left_quote" src="img/quote-left.jpg" /> -->
+              <div class="wrap-wrap">
+                <div class="wrapper-client-text">
+                  <p class="para4">
+                    Mrs. Penguin is cool and considerate, consetetur sadipscing
+                    elitr, sed diam nonumy eirmod tempor invidunt ut labore
+                    dolore magna<br /><br /><span class="person"
+                      >Mr. Penguin <br /></span
+                    ><span class="job">Cool Expert</span>
+                  </p>
+                  <p class="para3">
+                    Mr. Monkey is expert for bananas, consetetur sadipscing
+                    elitr, sed diam nonumy eirmod tempor invidunt ut labore
+                    dolore magna<br /><br /><span class="person"
+                      >Mr. Monkey <br /></span
+                    ><span class="job">Banana Expert</span>
+                  </p>
+                  <p class="para2">
+                    Mr. Griesgram is actually very lovely and kind, consetetur
+                    sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
+                    labore dolore magna<br /><br /><span class="person"
+                      >Mr. Griesgram <br /></span
+                    ><span class="job">Forester, Griesgram Forest</span>
+                  </p>
+                  <p class="para1">
+                    Joey is a charismatic and honest developer, consetetur
+                    sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
+                    labore dolore magna<br /><br /><span class="person"
+                      >Joey <br /></span
+                    ><span class="job">People Expert</span>
+                  </p>
+                  <p class="para7">
+                    Lila is a smart and curious mathematician, consetetur
+                    sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
+                    labore dolore magna<br /><br /><span class="person"
+                      >Lila Lola <br /></span
+                    ><span class="job">Lila Expert</span>
+                  </p>
+                  <p class="para6">
+                    Jeera is authentic and adventurous, consetetur sadipscing
+                    elitr, sed diam nonumy eirmod tempor invidunt ut labore
+                    dolore magna<br /><br /><span class="person"
+                      >Jeera Yummie <br /></span
+                    ><span class="job">Cumin Expert</span>
+                  </p>
+                  <p class="para5">
+                    Darchin is a joyful and humorous teamplayer, consetetur
+                    sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
+                    labore dolore magna<br /><br /><span class="person"
+                      >Darchin Dark <br /></span
+                    ><span class="job">Cinnamon expert</span>
+                  </p>
+                </div>
+              </div>
+              <!--   <img class="img_right_quote" src="img/quote-left-1.jpg" /> -->
+            </div>
+          </div>
+          <div class="client_right_top c">
+            <img class="face7" src="img/face5.png" alt="" />
+          </div>
+          <div class="client_right_middle c">
+            <img class="face6" src="img/face6.png" alt="" />
+          </div>
+          <div class="client_right_bottom c">
+            <img class="face7" src="img/face7.png" alt="" />
+          </div>
+        </div>
+        <div class="arrow-btn-div_client">
+          <button onclick="arrowLeftClient()" class="arrow-left-btn"></button>
+          <button onclick="arrowRightClient()" class="arrow-right-btn"></button>
+        </div>
+      </section>
+      <section id="strategies">
+        <h2><span>Business Strategies</span><br />Innovation by Inspiration</h2>
+        <div class="top_wrap">
+          <div class="teaser_wrapper">
+            <div class="teaser_group">
+              <div class="teaser teaser1">
+                <img class="teaser_img" src="img/brain.png" alt="" />
+                <h3><span>Absolute </span>Commitment</h3>
+                <p>
+                  1 Lorem ipsum dolor sit amet, vel accumsan liberavisse ex, ea
+                  nec concludaturque ndo. Verear
+                </p>
+              </div>
+              <div class="teaser teaser2">
+                <img src="img/gear.png" alt="" />
+                <h3><span>Efficient </span>Communication</h3>
+                <p>
+                  2 Lorem ipsum dolor sit amet, vel accumsan liberavisse ex, ea
+                  nec concludaturque ndo. Verear
+                </p>
+              </div>
+              <div class="teaser teaser3">
+                <img src="img/home.png" alt="" />
+                <h3><span>Building </span>Trust</h3>
+                <p>
+                  3 Lorem ipsum dolor sit amet, vel accumsan liberavisse ex, ea
+                  nec concludaturque ndo. Verear
+                </p>
+              </div>
+              <div class="teaser teaser4">
+                <img src="img/save-nature.png" alt="" />
+                <h3><span>Absolute </span>Dedication</h3>
+                <p>
+                  4 Lorem ipsum dolor sit amet, vel accumsan liberavisse ex, ea
+                  nec concludaturque ndo. Verear
+                </p>
+              </div>
+              <div class="teaser teaser5">
+                <img src="img/refresh.png" alt="" />
+                <h3><span>Deep </span>Passion</h3>
+                <p>
+                  5 Lorem ipsum dolor sit amet, vel accumsan liberavisse ex, ea
+                  nec concludaturque ndo. Verear
+                </p>
+              </div>
+              <div class="teaser teaser6">
+                <img src="img/heart.png" alt="" />
+                <h3><span>More </span>Love</h3>
+                <p>
+                  6 Lorem ipsum dolor sit amet, vel accumsan liberavisse ex, ea
+                  nec concludaturque ndo. Verear
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="arrow-btn-div">
+          <button onclick="leftClickTeaser()" class="arrow-left-btn"></button>
+          <button onclick="rightClickTeaser()" class="arrow-right-btn"></button>
+        </div>
+      </section>
+      <section id="products">
+        <h2><span>High Performance </span>Products</h2>
+        <p>
+          Lorem ipsum dolor sit amet, vel accumsan liberavisse ex, ea nec
+          habemus sea ut. His nibh scripta in. In sea vocibus facilisis.
+        </p>
+        <div class="products_teaser">
+          <div id="earth">
+            <img src="img/neolibra.png" alt="" />
+            <p>
+              Lorem ipsum dolor sit amet, vel accumsan liberavisse ex, ea nec
+            </p>
+            <a>Details</a>
+          </div>
+          <div id="lightai">
+            <img src="img/neostrada.png" alt="" />
+            <p>
+              Lorem ipsum dolor sit amet, vel accumsan liberavisse ex, ea nec
+            </p>
+            <a>Details</a>
+          </div>
+          <div id="hexlab">
+            <img src="img/neodura.png" alt="" />
+            <p>
+              Lorem ipsum dolor sit amet, vel accumsan liberavisse ex, ea nec
+            </p>
+            <a>Details</a>
+          </div>
+          <div id="aven">
+            <img src="img/neofacta.png" alt="" />
+            <p>
+              Lorem ipsum dolor sit amet, vel accumsan liberavisse ex, ea nec
+            </p>
+            <a>Details</a>
+          </div>
+          <div id="liva">
+            <img src="img/neomare.png" alt="" />
+            <p>
+              Lorem ipsum dolor sit amet, vel accumsan liberavisse ex, ea nec
+            </p>
+            <a>Details</a>
+          </div>
+          <div id="ideaa">
+            <img src="img/neobene.png" alt="" />
+            <p>
+              Lorem ipsum dolor sit amet, vel accumsan liberavisse ex, ea nec
+            </p>
+            <a>Details</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact">
+        <div class="backdrop"></div>
+        <div class="modal_skew_wrap">
+          <div id="modal">
+            <div>First Name:</div>
+            <div id="output_fname"></div>
+            <div>Last Name:</div>
+            <div id="output_lname"></div>
+            <div>Email Adress:</div>
+            <div id="output_email"></div>
+            <div>Your request:</div>
+            <div id="output_problem"></div>
+            <div>Message:</div>
+            <div id="output_message"></div>
+            <p>Thank you for your message! We will get back to you soon.</p>
+            <button class="close-modal" onclick="closeFunction()" tabindex="-1">
+              Close
+            </button>
+          </div>
+        </div>
+        <div class="contact_div">
+          <h2>
+            <span>How can we </span> help you?
+            <span>
+              <br />
+              Leave us </span
+            >a Message
+          </h2>
+          <div class="contact_form_div">
+            <form id="my_form">
+              <!--action="mailto:melanie.storr@yahoo.de" method="post" -->
+              <div class="contact_form">
+                <div class="contact_form_name_f">
+                  <div class="contact_form_name_f_label">
+                    <label for="fname">Name</label>
+                  </div>
+                  <div>
+                    <input
+                      type="text"
+                      id="fname"
+                      name="firstname"
+                      placeholder="John"
+                    />
+                    <span class="throw_error_name"></span>
+                  </div>
+                </div>
+
+                <div class="contact_form_email">
+                  <div class="contact_form_email_label">
+                    <label for="email">Your Email Adress</label>
+                  </div>
+                  <div>
+                    <input
+                      type="email"
+                      id="email"
+                      name="email"
+                      minlength="6"
+                      placeholder="youremail@provider.com"
+                    />
+                    <span class="throw_error_email"></span>
+                  </div>
+                </div>
+                <div class="contact_form_problem">
+                  <div class="contact_form_problem_label">
+                    <label for="problem">Please specify your request </label>
+                  </div>
+                  <div>
+                    <select
+                      id="problem"
+                      name="problem"
+                      placeholder="Please Select"
+                    >
+                      <option value="Please_select">Please select:</option>
+                      <option value="Products">Products</option>
+                      <option value="Job Opportunity">Job Opportunity</option>
+                      <option value="Other">Other</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="contact_form_message">
+                  <div class="contact_form_your_message_label">
+                    <label for="message">Type Your Message</label>
+                  </div>
+                  <div>
+                    <textarea
+                      id="message"
+                      name="message"
+                      placeholder="Lorem ipsum..."
+                      style="height: 100px"
+                    ></textarea>
+                    <span class="throw_error_email"></span>
+                  </div>
+                </div>
+                <div>
+                  <!--  <input class="submit_input" type="submit" value="submit"> -->
+                  <button
+                    type="submit"
+                    class="submit_btn"
+                    form="my_form"
+                    value="Submit"
+                    onclick="submitForm()"
+                  >
+                    Submit
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+          <div class="contact_empty_div"></div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer_logo">
+        <img src="img/logo_white.png" alt="" />
+      </div>
+      <hr />
+      <div class="footer_list">
+        <div class="contact_footer">
+          <h4>Contact</h4>
+          <p>+49 1234 56 78 91</p>
+          <p>Innovation Street 4</p>
+          <p>Giant Stree 1</p>
+          <p>neotech.com</p>
+        </div>
+        <div class="footer_list2">
+          <h4>Links</h4>
+          <a href="#about">About</a>
+          <a href="#portfolio">Portfolio</a>
+          <a href="#product">Team</a>
+          <a href="#career">Product</a>
+          <a href="#blog">Contact</a>
+        </div>
+        <div class="footer_list3">
+          <h4>Social Network</h4>
+          <a href="#fb">Facebook</a>
+          <a href="linkedin">LinkedIn</a>
+          <a href="youtube">YouTube</a>
+          <a href="Vimeo">Vimeo</a>
+          <a href="Skype">Skype</a>
+        </div>
+        <div class="adress">
+          <h4>Impressum</h4>
+          <p>© 2020 NeoTech</p>
+          <a>Terms and Conditions</a>
+        </div>
+      </div>
+      <div class="footer_empty_container"></div>
+    </footer>
+
+    <script src="js/submit.js"></script>
+    <script src="js/mobileNavBar.js"></script>
+    <script src="sliderClient.js"></script>
+  </body>
+</html>
